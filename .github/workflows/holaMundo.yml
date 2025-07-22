@@ -2,7 +2,7 @@ name: hola mundo
 on : [push]
 jobs:
  build :
- runs_on:  ubuntu-latest
+ runs-on:  ubuntu-latest
  steps :
  - uses actions/checkout@v3
  -name: ejecutar un script
